@@ -104,7 +104,7 @@ export const MOCK_LOCATIONS: PlanLocation[] = [
     {
         id: 2,
         product: "MINECRAFT",
-        countryCode: "us",
+        countryCode: "US",
         ipAddress: null,
         countryNameByLocale: { "PT_BR": "Estados Unidos", "EN_US": "United States", "ES_ES": "Estados Unidos" },
         cityNameByLocale: { "PT_BR": "Miami", "EN_US": "Miami", "ES_ES": "Miami" },
@@ -114,7 +114,7 @@ export const MOCK_LOCATIONS: PlanLocation[] = [
     {
         id: 3,
         product: "VPS",
-        countryCode: "br",
+        countryCode: "BR",
         ipAddress: null,
         countryNameByLocale: { "PT_BR": "Brasil", "EN_US": "Brazil", "ES_ES": "Brasil" },
         cityNameByLocale: { "PT_BR": "São Paulo", "EN_US": "São Paulo", "ES_ES": "São Paulo" },

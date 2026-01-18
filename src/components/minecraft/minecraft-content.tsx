@@ -34,7 +34,7 @@ export default async function MinecraftContent() {
             {
                 id: 2,
                 product: "MINECRAFT",
-                countryCode: "us",
+                countryCode: "US",
                 ipAddress: null,
                 countryNameByLocale: { PT_BR: "Estados Unidos", EN_US: "United States", ES_ES: "Estados Unidos" },
                 cityNameByLocale: { PT_BR: "Miami", EN_US: "Miami", ES_ES: "Miami" },
