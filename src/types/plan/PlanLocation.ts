@@ -1,9 +1,8 @@
 import { DEFAULT_LOCALE, getI18nLocale, I18nLocale } from "../I18nLocale"
-import { ProductType } from "../ProductType"
 
 export default interface PlanLocation {
     id: number
-    product: ProductType
+    product: "MINECRAFT" | "GAMES_GENERIC" | "VPS"
     countryCode: string
     ipAddress: string | null
     countryNameByLocale: Record<I18nLocale, string>

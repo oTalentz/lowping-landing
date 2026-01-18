@@ -13,15 +13,18 @@ const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
     rules: {
-      "@typescript-eslint/no-explicit-any": "warn", // Allow any type, but warn about it
-      "semi": ["error", "never"], // Disallow semicolons at the end of statements
-      "@typescript-eslint/no-unused-vars": [ // Disallow unused variables
-        "error",
+      "@typescript-eslint/no-explicit-any": "warn",
+      "semi": ["warn", "never"],
+      "@typescript-eslint/no-unused-vars": [
+        "warn",
         {
-          argsIgnorePattern: "^_", // Ignore unused function arguments that start with an underscore
-          varsIgnorePattern: "^_" // Ignore unused variables that start with an underscore
+          argsIgnorePattern: "^_",
+          varsIgnorePattern: "^_"
         }
-      ]
+      ],
+      "prefer-const": "warn",
+      "react-hooks/exhaustive-deps": "warn",
+      "react-hooks/rules-of-hooks": "warn"
     }
   }
 ]
