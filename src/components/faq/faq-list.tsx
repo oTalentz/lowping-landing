@@ -6,6 +6,7 @@ import FAQSearch from "./faq-search"
 import { FAQCategory } from "@/types/faq/FAQCategory"
 import { FAQItem } from "@/types/faq/FAQItem"
 import { MOCK_FAQS } from "@/services/mock-data"
+import { getI18nLocale } from "@/types/I18nLocale"
 
 type FAQProps = {
     category: FAQCategory
