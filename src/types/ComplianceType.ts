@@ -1,0 +1,1 @@
+export type ComplianceType = "TERMS_OF_USE" | "PRIVACY_POLICY"

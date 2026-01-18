@@ -1,0 +1,477 @@
+{
+  "metadata": {
+    "title": "Lowping Hosting",
+    "description": "Venha para uma hospedagem dedicada a você! Com servidores para Minecraft, VPS e outros jogos, oferecemos a melhor experiência para gamers e desenvolvedores. Experimente agora!",
+    "keywords": "Lowping Hosting",
+    "pages": {
+      "home": {
+        "title": "Lowping Hosting"
+      },
+      "games": {
+        "title": "Jogos"
+      },
+      "vps": {
+        "title": "VPS"
+      },
+      "minecraft": {
+        "title": "Minecraft"
+      },
+      "terms_of_use": {
+        "title": "Termos de Uso"
+      },
+      "privacy_policy": {
+        "title": "Política de Privacidade"
+      }
+    }
+  },
+  "navbar": {
+    "logo": {
+      "aria_label": "Ir para a página inicial"
+    },
+    "home": {
+      "text": "Início",
+      "aria_label": "Ir para a página inicial"
+    },
+    "minecraft": {
+      "text": "Minecraft",
+      "aria_label": "Ir para a página de Minecraft"
+    },
+    "games": {
+      "text": "Jogos",
+      "aria_label": "Ir para a página de jogos"
+    },
+    "vps": {
+      "text": "VPS",
+      "aria_label": "Ir para a página de VPS"
+    },
+    "help": {
+      "text": "Ajuda",
+      "aria_label": "Ir para a página de ajuda"
+    },
+    "create_server_button": {
+      "text": "Criar meu servidor",
+      "aria_label": "Ir para a página de criação de servidor"
+    }
+  },
+  "home": {
+    "header": {
+      "focused_to_you_text": "Servidores dedicados a você",
+      "best_hosting": {
+        "title": "Melhor hospedagem",
+        "lore": {
+          "1": "para jogos",
+          "2": "premium"
+        }
+      }
+    },
+    "choose_game": {
+      "description": "Servidores para jogos",
+      "title": "Jogos em destaque",
+      "card": {
+        "starting_price_text": "A partir de {price} por mês"
+      },
+      "see_more_games_button": {
+        "text": "Todos os jogos que suportamos",
+        "aria_label": "Ir para a página de jogos"
+      }
+    },
+    "reviews": {
+      "title": "As experiências de nossos clientes falam alto!",
+      "description": "Entre nas histórias daqueles que confiam em nós para as suas necessidades. Suas palavras pintam um quadro vívido da qualidade, cuidado e satisfação que buscamos oferecer em cada interação.",
+      "see_plans_button": {
+        "text": "Ver planos"
+      },
+      "satisfied_customers": "clientes satisfeitos",
+      "average_rating": "avaliação média"
+    }
+  },
+  "games": {
+    "header": {
+      "title_1": "Escolha um jogo",
+      "title_2": "e comece a jogar"
+    },
+    "search": {
+      "input_placeholder": "Pesquise um jogo...",
+      "standalone_games_title": "Jogos Standalone",
+      "steam_cmd_games_title": "Jogos SteamCMD",
+      "no_results": {
+        "title": "Parece que ainda não suportamos esse jogo...",
+        "description": "Tente usar palavras-chave diferentes ou veja a lista completa."
+      }
+    },
+    "descriptions": {
+      "minecraft": "Minecraft é um jogo sandbox em que os jogadores exploram mundos gerados aleatoriadamente e constroem tudo o que imaginarem — de casas simples a cidades inteiras — usando blocos. Com modos de sobrevivência, criativo e multiplayer, ele oferece liberdade total para criação e aventura.",
+      "terraria": "Terraria é um jogo de aventura 2D com elementos de construção, mineração, combate e exploração. Com dezenas de chefes, biomas e equipamentos, o jogo combina o estilo retrô com uma gameplay profunda e viciante.",
+      "factorio": "Factorio é um jogo de automação onde o objetivo é construir e expandir fábricas automatizadas para extrair recursos, produzir itens e defender sua base de criaturas alienígenas. É ideal para quem gosta de lógica, eficiência e planejamento estratégico.",
+      "space-engineers-torch": "Space Engineers é um sandbox espacial focado em engenharia, construção e exploração. Com suporte para construções detalhadas de naves, estações espaciais e veículos terrestres, ele oferece física realista e multiplayer cooperativo. A versão Torch é otimizada para servidores dedicados.",
+      "palworld": "Palworld é uma mistura inusitada de Pokémon com sobrevivência e combate armado. Você pode capturar criaturas chamadas 'Pals', usá-las para batalhas, construir bases, cultivar plantações ou até montar fábricas com trabalho escravo de monstros. Sim, é caótico assim.",
+      "satisfactory": "Satisfactory é um jogo de automação em 1ª pessoa onde você constrói fábricas colossais em um planeta alienígena. Explore, colete recursos, enfrente criaturas hostis e otimize linhas de produção com esteira, veículos e drones.",
+      "counter-strike-2": "Counter-Strike 2 é a nova geração do icônico FPS competitivo. Com melhorias gráficas, física renovada e sistema de smoke dinâmico, o CS2 mantém a fórmula clássica de confronto entre terroristas e contra-terroristas com refinamentos modernos.",
+      "rust": "Rust é um jogo de sobrevivência hardcore online onde o perigo vem de todos os lados: fome, radiação, frio... e outros jogadores. Construa bases, crie armas, forme alianças (ou traia-as) e lute para sobreviver num mundo impiedoso.",
+      "valheim": "Valheim é um jogo de sobrevivência e exploração ambientado numa mitologia viking. Enfrente monstros lendários, construa vilarejos, navegue por oceanos e desvende segredos em biomas diversos enquanto busca provar seu valor a Odin.",
+      "v-rising": "V Rising é um RPG de ação e sobrevivência onde você joga como um vampiro recém-desperto. Construa seu castelo, drene sangue de inimigos, enfrente caçadores e lute por poder em um mundo sombrio e gótico.",
+      "ark-survival-evolved": "ARK: Survival Evolved é um jogo de sobrevivência em um mundo pré-histórico cheio de dinossauros. Dome criaturas, construa bases e enfrente desafios naturais e de outros jogadores em um mundo hostil e expansivo.",
+      "ark-survival-ascended": "ARK: Survival Ascended é o remake em Unreal Engine 5 do ARK original, trazendo gráficos atualizados, melhorias de performance e suporte a mods via cross-platform. A sobrevivência jurássica nunca foi tão bonita (e brutal)."
+    },
+    "personalize_plan": {
+      "title": "Personalize seu plano",
+      "plan_type": "Tipo de plano",
+      "ram_memory": "Memória RAM",
+      "monthly_value": "Valor mensal",
+      "continue_button": "Continuar contratando",
+      "see_all_plans": "Ver todos os planos",
+      "budget": "Budget",
+      "performance": "Performance",
+      "disclaimer": "Esta é uma simulação de valores. O preço final pode variar conforme as personalizações feitas no momento da contratação. Cupons de desconto podem estar disponíveis, consulte nosso Discord para mais informações."
+    },
+    "generic": {
+      "header": {
+        "your_game_with": "Seu jogo <span>{game}</span> com",
+        "best_hosting": "a <span>melhor</span> hospedagem",
+        "description": "Rode e jogue com facilidade em vários servidores de jogos com um único plano. Projetado para flexibilidade e desempenho, é totalmente otimizado para todos os títulos apresentados na nossa página de Jogos.",
+        "see_plans": "Ver planos",
+        "talk_to_us": "Fale conosco"
+      },
+      "game_not_found": "Jogo não encontrado.",
+      "features": {
+        "title": "Recursos Poderosos para <span>Qualquer Tipo de Jogo</span>",
+        "description": "Nossa hospedagem foi projetada para dar suporte a qualquer jogo com desempenho excepcional e ferramentas fáceis de usar. Configure, gerencie e escale seu servidor com apenas alguns cliques.",
+        "categories": {
+          "all": "Todos",
+          "compatibility": "Compatibilidade",
+          "management": "Gerenciamento",
+          "performance": "Desempenho",
+          "security": "Segurança",
+          "ease_of_use": "Facilidade de Uso",
+          "reliability": "Confiabilidade"
+        },
+        "cards": {
+          "one_click_installer": {
+            "title": "Instalação com 1 Clique",
+            "description": "Configure seu servidor de jogo instantaneamente com nosso sistema de instalação de um clique para diversos jogos e modpacks."
+          },
+          "auto_backup": {
+            "title": "Backup Automático",
+            "description": "Seus dados sempre seguros com backups automáticos programáveis e restauração rápida quando necessário."
+          },
+          "control_panel": {
+            "title": "Painel de Controle Único",
+            "description": "Gerencie todos os seus jogos através de um único painel intuitivo com controles personalizados para cada tipo de jogo."
+          },
+          "ddos_protection": {
+            "title": "Proteção DDoS",
+            "description": "Proteção robusta contra ataques DDoS para garantir que seu servidor esteja sempre online e acessível."
+          },
+          "game_switching": {
+            "title": "Troca de Jogos",
+            "description": "Alterne entre diferentes jogos em qualquer momento sem precisar de uma nova hospedagem ou configuração complicada."
+          },
+          "high_performance": {
+            "title": "Alto Desempenho",
+            "description": "Hardware de última geração com CPUs de alta frequência e SSDs NVMe para garantir o melhor desempenho em qualquer jogo."
+          },
+          "uptime_guarantee": {
+            "title": "Garantia de Uptime",
+            "description": "99.9% de uptime garantido com monitoramento contínuo e sistemas redundantes para máxima confiabilidade."
+          },
+          "scalable_resources": {
+            "title": "Recursos Escaláveis",
+            "description": "Aumente ou diminua os recursos do seu servidor conforme necessário, pagando apenas pelo que realmente utiliza."
+          },
+          "resource_monitoring": {
+            "title": "Monitoramento Avançado",
+            "description": "Acompanhe o uso de CPU, memória e armazenamento em tempo real para otimizar o desempenho do seu servidor."
+          }
+        }
+      }
+    }
+  },
+  "vps": {
+    "header": {
+      "coming_soon": "Em breve na Lowping",
+      "title_line1": "Servidores VPS",
+      "title_line2": "Para você criar",
+      "title_line3": "Do seu jeito"
+    },
+    "info": {
+      "title": "O que é uma VPS?",
+      "description": "Um Servidor Privado Virtual (VPS) é um servidor dedicado virtualizado que oferece recursos exclusivos e controle total sobre seu ambiente de hospedagem.",
+      "control_section": {
+        "title": "Tenha o controle total do seu servidor",
+        "description": "Com uma VPS, você tem acesso root completo, permitindo personalizar cada aspecto do seu ambiente. Instale qualquer software, configure seu servidor exatamente como precisa e tenha a liberdade para criar o ambiente perfeito para seus projetos.",
+        "features": {
+          "dedicated_resources": {
+            "title": "Recursos dedicados",
+            "description": "CPU, memória e armazenamento garantidos exclusivamente para você"
+          },
+          "advanced_security": {
+            "title": "Segurança avançada",
+            "description": "Configurações de segurança personalizáveis e isolamento completo"
+          }
+        }
+      },
+      "features": {
+        "high_performance": {
+          "title": "Alto desempenho",
+          "description": "Recursos dedicados para garantir velocidade e estabilidade para suas aplicações."
+        },
+        "complete_customization": {
+          "title": "Personalização completa",
+          "description": "Escolha o sistema operacional e configure o ambiente do seu jeito."
+        },
+        "scalability": {
+          "title": "Escalabilidade",
+          "description": "Aumente recursos conforme sua aplicação cresce, sem interrupções."
+        }
+      }
+    },
+    "pricing": {
+      "coming_soon": "Disponível em breve",
+      "title": "escolhendo meu plano",
+      "select_region": "escolha uma regiao e sua maquina",
+      "custom_config": "Precisa de uma configuração personalizada?",
+      "contact_us": "Entre em contato",
+      "discuss_needs": "para discutirmos suas necessidades.",
+      "card": {
+        "traffic_unlimited": "Tráfego ilimitado",
+        "traffic_tb": "Tráfego {amount} TB /mês",
+        "traffic_gb": "Tráfego {amount} GB /mês",
+        "featured": "Destaque",
+        "processor": "Processador",
+        "memory": "Memória",
+        "storage": "Armazenamento",
+        "network": "Rede",
+        "per_month": "/mês",
+        "interest_button": "Tenho interesse"
+      }
+    },
+    "benefits": {
+      "subtitle": "Por que escolher VPS?",
+      "title": "Benefícios de ter um servidor dedicado",
+      "performance": {
+        "title": "Performance Superior",
+        "short_description": "Recursos separados para você",
+        "heading": "Performance superior para suas aplicações!",
+        "description": "Tenha mais controle e desempenho com servidores VPS! Mesmo em ambientes virtuais, você conta com alocação de recursos garantida e menor risco de interferência de outros usuários. Isso resulta em maior estabilidade, respostas mais rápidas e uma experiência mais fluida para seus jogos, sites ou sistemas."
+      },
+      "control": {
+        "title": "Controle Total",
+        "short_description": "Configure seu servidor como quiser",
+        "heading": "Configure seu servidor exatamente como deseja!",
+        "description": "Tenha acesso root completo para instalar qualquer software, configurar regras de firewall personalizadas, e escolher o sistema operacional que melhor atende às suas necessidades. A liberdade é toda sua!"
+      },
+      "scalability": {
+        "title": "Escalabilidade Flexível",
+        "short_description": "Cresça conforme sua demanda aumenta",
+        "heading": "Cresça conforme sua demanda aumenta!",
+        "description": "Com VPS, você pode começar com um plano que atenda às suas necessidades atuais e escalar facilmente à medida que seu projeto cresce. Adicione mais CPU, RAM ou armazenamento quando precisar entrando em contato conosco. Será sempre um prazer ajudar!"
+      }
+    },
+    "interest_cta": {
+      "coming_soon": "Em breve na Lowping",
+      "title": "Interessado em nossos serviços de VPS?",
+      "description": "Estamos trabalhando para lançar nossos serviços de VPS em breve. Registre seu interesse agora e seja um dos primeiros a saber quando estiver disponível.",
+      "email_label": "Seu e-mail",
+      "email_placeholder": "john.doe@email.com",
+      "description_label": "Descreva suas necessidades de VPS",
+      "description_placeholder": "Conte-nos o que você precisa da sua VPS...",
+      "description_max_characters_text": "(máximo 150 caracteres)",
+      "sending": "Enviando...",
+      "received": "Recebemos!",
+      "register_interest": "Registrar interesse",
+      "success_title": "Interesse registrado com sucesso!",
+      "success_message": "Entraremos em contato assim que o serviço estiver disponível.",
+      "benefits": {
+        "priority_notification": "Notificação prioritária",
+        "early_access": "Acesso antecipado",
+        "exclusive_offers": "Ofertas exclusivas de lançamento"
+      },
+      "validation": {
+        "email": {
+          "required": "Por favor, insira seu endereço de e-mail.",
+          "invalid": "Por favor, insira um endereço de e-mail válido."
+        },
+        "description": {
+          "required": "Por favor, descreva suas necessidades de VPS.",
+          "max_chars": "Sua descrição não pode exceder {count} caracteres."
+        }
+      }
+    },
+    "faq": {
+      "subtitle": "perguntas frequentes",
+      "title": "Tudo o que você precisa saber sobre VPS",
+      "items": [
+        {
+          "question": "O que é uma VPS?",
+          "answer": "VPS significa Virtual Private Server (Servidor Privado Virtual). É um servidor virtual que funciona em uma máquina física compartilhada, mas tem recursos dedicados e isolados, oferecendo controle e performance similares a um servidor dedicado, mas a um custo menor."
+        },
+        {
+          "question": "Quais são as vantagens de usar uma VPS em vez de hospedagem compartilhada?",
+          "answer": "Uma VPS oferece recursos dedicados, maior segurança devido ao isolamento, controle total sobre o ambiente do servidor (incluindo acesso root), melhor desempenho, e a capacidade de lidar com picos de tráfego. Ideal para projetos que precisam de mais recursos e personalização."
+        },
+        {
+          "question": "Posso instalar qualquer sistema operacional em uma VPS?",
+          "answer": "Sim, uma das principais vantagens de uma VPS é a possibilidade de escolher e instalar o sistema operacional de sua preferência, como diversas versões de Linux (Ubuntu, CentOS, Debian) ou Windows Server."
+        },
+        {
+          "question": "Preciso de conhecimentos técnicos para gerenciar uma VPS?",
+          "answer": "Sim, gerenciar uma VPS requer conhecimentos básicos de administração de servidores. No entanto, existem painéis de controle que facilitam muitas tarefas e nossa equipe de suporte estará disponível para auxiliar quando necessário."
+        },
+        {
+          "question": "Quando a Lowping disponibilizará serviços de VPS?",
+          "answer": "Estamos trabalhando arduamente para lançar nossos serviços de VPS em breve. Registre seu interesse através do botão 'Tenho interesse' e você será notificado assim que o serviço estiver disponível."
+        }
+      ]
+    }
+  },
+  "minecraft": {
+    "header": {
+      "title_1": "A melhor hospedagem",
+      "title_2": "Minecraft",
+      "description": "Escolha uma localização, o plano ideal para você e comece a jogar agora mesmo!"
+    },
+    "pricing": {
+      "ping_info": {
+        "description": "Passe o mouse para aviso sobre o ping.",
+        "tooltip": "O ping exibido é medido em tempo real, mas pode variar um pouco dentro do jogo dependendo de diversos fatores. Também pode variar de acordo com a sua conexão."
+      },
+      "choose_tier_text": "Escolha um tier",
+      "plan_card": {
+        "gb_ram_text": "GB RAM",
+        "per_month_text": "/mês",
+        "features_text": "Detalhes:",
+        "create_server_button": {
+          "text": "Criar meu servidor",
+          "aria_label": "Criar meu servidor com este plano"
+        }
+      },
+      "ping": {
+        "measuring": "...",
+        "result": "{value} ms",
+        "unavailable": "Sem conexão"
+      },
+      "featured": "Destaque",
+      "no_locations": {
+        "title": "Nenhuma localização disponível",
+        "description": "No momento não temos localizações disponíveis para servidores Minecraft."
+      },
+      "no_tiers": {
+        "title": "Nenhum tier disponível para esta localização",
+        "description": "No momento não temos tiers disponíveis para a localização selecionada."
+      },
+      "no_plans": {
+        "title": "Nenhum plano disponível para a localização e tier selecionados",
+        "description": "No momento não temos planos disponíveis para a localização e tier selecionados."
+      }
+    },
+    "features": {
+      "title": "Recursos <span>exclusivos</span> para você",
+      "description": "Experimente uma hospedagem de Minecraft que prioriza a simplicidade e a eficiência.",
+      "cards": {
+        "plugins_manager": {
+          "title": "Gerenciador de plugins",
+          "description": "Instale plugins com facilidade e rapidez. Temos uma biblioteca de plugins prontos para instalação! Opcionalmente, você pode adicionar os seus próprios com apenas alguns cliques."
+        },
+        "one_click_installer": {
+          "title": "Instalador de um clique",
+          "description": "Instale o software desejado para o seu servidor Minecraft (Spigot, Paper, etc) com apenas um clique. Não perca tempo com configurações complicadas, nós cuidamos disso para você."
+        },
+        "files_manager": {
+          "title": "Gerenciador de arquivos",
+          "description": "Acesse todos os arquivos do seu servidor com facilidade. Faça upload, download e edite arquivos diretamente do painel de controle. Mas claro, você também pode usar o SFTP caso prefira!"
+        },
+        "auto_backup": {
+          "title": "Backup automático",
+          "description": "Nunca mais perca seus dados! Com o backup automático, você pode restaurar seu servidor a qualquer momento. Você pode escolher a frequência dos backups que cuidamos deles para você!"
+        },
+        "pterodactyl_panel": {
+          "title": "Painel Pterodactyl",
+          "description": "Gerencie seu servidor com o painel Pterodactyl, um dos melhores painéis de controle do mercado. Com uma interface intuitiva e fácil de usar, você terá total controle sobre o seu servidor."
+        },
+        "ddos_protection": {
+          "title": "Proteção Anti DDoS",
+          "description": "Proteja seu servidor contra ataques DDoS com nossa proteção avançada. Nós monitoramos constantemente o tráfego do seu servidor e bloqueamos qualquer ataque antes que ele chegue até você."
+        }
+      }
+    }
+  },
+  "terms_of_use": {
+    "header": {
+      "title": "Termos de Uso",
+      "last_edit_text": "Versão em vigor desde {date_hour}."
+    }
+  },
+  "privacy_policy": {
+    "header": {
+      "title": "Política de Privacidade",
+      "last_edit_text": "Versão em vigor desde {date_hour}."
+    }
+  },
+  "footer": {
+    "legal_information": {
+      "title": "Informações Legais",
+      "terms_of_use": {
+        "text": "Termos de Uso",
+        "aria_label": "Ir para a página de Termos de Uso"
+      },
+      "privacy_policy": {
+        "text": "Política de Privacidade",
+        "aria_label": "Ir para a página de Política de Privacidade"
+      }
+    },
+    "contact": {
+      "title": "Contato",
+      "discord_text": "Discord",
+      "whatsapp_text": "WhatsApp",
+      "email_text": "E-mail"
+    },
+    "company": {
+      "title": "A Lowping",
+      "customer_area_text": "Área do Cliente",
+      "help_center_text": "Central de Ajuda",
+      "network_status_text": "Status da Rede"
+    },
+    "tagline": "Lowping Hosting",
+    "rights": "© {year} Lowping Services - 47.934.586/0001-25",
+    "credits": "Feito com ❤ por <Link>Maxyni</Link>"
+  },
+  "faq": {
+    "description": "Tem perguntas? Temos as respostas",
+    "title": "Confira o nosso FAQ",
+    "more_questions_lore": {
+      "1": "Tem + perguntas? Entre em contato",
+      "2": "Para um suporte dedicado"
+    },
+    "support": {
+      "site": {
+        "title": "Abra um ticket",
+        "description": "Suporte pelo site"
+      },
+      "discord": {
+        "title": "Discord",
+        "description": "Entre em nosso Discord"
+      }
+    },
+    "search": {
+      "input_placeholder": "Procurar perguntas frequentes...",
+      "categories_name": {
+        "HOME": "Geral",
+        "MINECRAFT": "Minecraft",
+        "GAMES": "Jogos",
+        "VPS": "VPS"
+      },
+      "no_results": {
+        "title": "Nenhum resultado encontrado",
+        "description": "Tente termos de pesquisa diferentes ou entre em contato com o suporte."
+      },
+      "show_all": {
+        "text": "Mostrar tudo",
+        "aria_label": "Ver todas as perguntas frequentes"
+      },
+      "show_less": {
+        "text": "Mostrar menos",
+        "aria_label": "Ver menos perguntas frequentes"
+      }
+    }
+  }
+}

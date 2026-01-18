@@ -1,0 +1,1 @@
+export type FAQCategory = "HOME" | "MINECRAFT" | "GAMES" | "VPS"

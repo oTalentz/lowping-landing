@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url("../../public/fonts/BebasNeue.ttf");
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    background: #000000;
+    font-family: BebasNeue;
+    overflow-x: hidden;
+}
+
+*::-webkit-scrollbar {
+    height: 10px;
+    width: 1px;
+}
+
+*::-webkit-scrollbar-track {
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.bg-picture {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    margin: auto;
+    width: 100vw;
+}
+
+.line {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.line::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+    top: -50%;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
+    animation: drop 7s 0s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+
+/* Distribuindo as linhas */
+.line:nth-child(1) {
+    left: 14.3%;
+}
+
+.line:nth-child(2) {
+    left: 28.6%;
+}
+
+.line:nth-child(3) {
+    left: 42.9%;
+}
+
+.line:nth-child(4) {
+    left: 57.2%;
+}
+
+.line:nth-child(5) {
+    left: 71.5%;
+}
+
+.line:nth-child(6) {
+    left: 85.8%;
+}
+
+/* Ajustando os delays de animação */
+.line:nth-child(1)::after {
+    animation-delay: 2s;
+}
+
+.line:nth-child(2)::after {
+    animation-delay: 2.2s;
+}
+
+.line:nth-child(3)::after {
+    animation-delay: 2.4s;
+}
+
+.line:nth-child(4)::after {
+    animation-delay: 2.6s;
+}
+
+.line:nth-child(5)::after {
+    animation-delay: 2.8s;
+}
+
+.line:nth-child(6)::after {
+    animation-delay: 3.0s;
+}
+
+@keyframes drop {
+    0% {
+        top: -50%;
+    }
+
+    100% {
+        top: 110%;
+    }
+}
+
+@property --border-angle {
+    inherits: false;
+    initial-value: 0deg;
+    syntax: '<angle>';
+}
+
+.shiny {
+    --transition-duration: 500ms;
+    --transition-easing: ease-out;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+    transition: transform var(--transition-duration) var(--transition-easing);
+    overflow: hidden;
+}
+
+.shiny::before {
+    content: "";
+    background: rgba(255, 255, 255, 0.4);
+    width: 60%;
+    height: 100%;
+    top: 0%;
+    left: -125%;
+    transform: skew(45deg);
+    position: absolute;
+    transition: left var(--transition-duration) var(--transition-easing);
+}
+
+.shiny:hover {
+    transform: translateY(-25%);
+}
+
+.shiny:hover::before {
+    left: 150%;
+}
+
+.animate-feature {
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(2rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(-2rem);
+    }
+}
+
+.boxImage {
+    position: relative;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+}
+
+.boxImage::before {
+    content: "";
+    position: absolute;
+    inset: -5px;
+    background: conic-gradient(from 90deg at 40% -25%, #ffffff, #d0e8ff, #a0d1ff, #70baff, #4aa3ff, #2a8cff, #0a75ff, #005ed6, #0a75ff, #2a8cff, #4aa3ff, #70baff, #a0d1ff, #d0e8ff, #ffffff, #ffffff);
+    filter: blur(45px);
+    transform: translate3d(0px, 0px, -1px);
+    border-radius: inherit;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0.85;
+}

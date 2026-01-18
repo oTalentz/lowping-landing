@@ -1,0 +1,1 @@
+type GameType = "STANDALONE" | "STEAM_CDM"
