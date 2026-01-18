@@ -14,7 +14,7 @@ type FAQProps = {
 export default async function FAQList({ category }: FAQProps) {
     const locale = await getLocale()
 
-    let data = {
+    const data = {
         faqs: [] as FAQItem[]
     }
 

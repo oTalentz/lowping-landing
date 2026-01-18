@@ -62,15 +62,7 @@ export default function GamesList({ minecraftPlansStartingInBRL, gamesPlansStart
         }
     }
 
-    // Get game description
-    const getGameDescription = (slug: string): string => {
-        const descTranslations = useTranslations("games.descriptions")
-        try {
-            return descTranslations(slug)
-        } catch (error) {
-            return ""
-        }
-    }
+    // Get game description - REMOVED (Unused and violated rules of hooks)
 
     return (
         <div className="flex flex-col gap-4 items-center justify-center text-center">
