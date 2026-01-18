@@ -186,7 +186,7 @@ export async function measurePing(ipAddress: string | null): Promise<number | nu
     if (!ipAddress) return null
     
     return new Promise((resolve) => {
-        const cleanup = setupPingMonitor(ipAddress, (result) => {
+        const _cleanup = setupPingMonitor(ipAddress, (result) => {
             resolve(result)
             // Não desconecta imediatamente para permitir reutilização
         })

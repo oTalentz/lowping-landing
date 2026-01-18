@@ -1,1 +1,1 @@
-type GameType = "STANDALONE" | "STEAM_CDM"
+export type GameType = "STANDALONE" | "STEAM_CDM"

@@ -1,1 +1,1 @@
-type ProductType = "MINECRAFT" | "GAMES_GENERIC" | "VPS" // Represents the type of product
+export type ProductType = "MINECRAFT" | "GAMES_GENERIC" | "VPS" // Represents the type of product

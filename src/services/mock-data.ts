@@ -145,7 +145,7 @@ export const MOCK_TIERS: PlanTier[] = [
 // Generate Minecraft plans
 const minecraftPlans: MinecraftPlan[] = []
 for (let ram = 4; ram <= 32; ram += 4) {
-    const k = ram / 4;
+    const k = ram / 4
     minecraftPlans.push({
         id: ram + 100,
         tierId: 2,
