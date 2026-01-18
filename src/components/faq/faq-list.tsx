@@ -38,7 +38,7 @@ export default async function FAQList({ category }: FAQProps) {
             "We guarantee a full refund within 7 days if you are not satisfied. To request it, simply contact our support team.";
 
     data.faqs.push({
-        locale: locale as any,
+        locale: getI18nLocale(locale),
         category: category,
         question: refundQuestion,
         answer: refundAnswer
@@ -54,7 +54,7 @@ export default async function FAQList({ category }: FAQProps) {
             "We offer specialized (Premium) support for Minecraft servers. For other games, we provide basic support focused on infrastructure stability.";
 
     data.faqs.push({
-        locale: locale as any,
+        locale: getI18nLocale(locale),
         category: category,
         question: supportQuestion,
         answer: supportAnswer
@@ -78,7 +78,7 @@ export default async function FAQList({ category }: FAQProps) {
             `We currently accept ${gamesList.length} game variations, including: ${gamesList.join(", ")}.`;
 
     data.faqs.push({
-        locale: locale as any,
+        locale: getI18nLocale(locale),
         category: category,
         question: gamesQuestion,
         answer: gamesAnswer
