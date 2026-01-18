@@ -36,7 +36,7 @@ export default function VPSFAQ() {
       </motion.h1>
 
       <div className="w-full max-w-3xl mx-auto">
-        {t.raw("items").map((faq: any, index: number) => (
+        {((t.raw("items") as { question: string; answer: string }[]) || []).map((faq, index) => (
           <motion.div
             key={index}
             initial={{ opacity: 0, y: 20 }}

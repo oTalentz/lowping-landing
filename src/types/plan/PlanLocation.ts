@@ -1,4 +1,5 @@
 import { DEFAULT_LOCALE, getI18nLocale, I18nLocale } from "../I18nLocale"
+import { ProductType } from "../ProductType"
 
 export default interface PlanLocation {
     id: number

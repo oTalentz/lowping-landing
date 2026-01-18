@@ -61,8 +61,15 @@ export default function VPSInterestCTA() {
       console.log("Mock interest registration:", { email, description })
 
       setSubmitted(true)
-    } catch (error: any) {
-      setError(error?.response?.data?.error?.code || "An error occurred. Please try again.")
+    } catch (error: unknown) {
+      const code =
+        typeof error === "object" &&
+        error !== null &&
+        "response" in error &&
+        (error as any).response?.data?.error?.code
+          ? (error as any).response.data.error.code
+          : null
+      setError(code || "An error occurred. Please try again.")
     } finally {
       setSubmitting(false)
     }

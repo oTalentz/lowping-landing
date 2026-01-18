@@ -1,3 +1,5 @@
+import type { GameType } from "./GameType"
+
 export interface Game {
     type: GameType
     name: string
